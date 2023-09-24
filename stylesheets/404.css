@@ -1,0 +1,32 @@
+:root {
+--red: #E1433B;
+--black: #191818;
+--white: #E8E7E1;
+}
+
+@font-face {
+  font-family: 'Oks';
+  font-display: swap;
+  src:
+       url("../fonts/Oksfree0013.otf") format('opentype');
+}
+
+body {
+  background-color: #E8E7E1;
+  text-align: center;
+  padding: 30px;
+
+}
+
+
+h1 {
+  font-family: 'Oks';
+  font-size: 170px;
+  margin-bottom: 30px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-size: 15px;
+}

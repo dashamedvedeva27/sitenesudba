@@ -1,0 +1,57 @@
+
+@media (max-width: 992px) {
+
+  .text {
+    left:10vw;
+    top:8vh;
+  }
+
+  .text1 {
+   display: none;
+  }
+
+  .forma{
+    width: 75vw;
+    height:65vh;
+    top:20vh;
+    left: 10vw;
+    position: relative;
+  }
+
+  .fo {
+   display: none;
+  }
+
+  .put{
+      width: 60vw;
+      background-color:var(--white);
+      position: relative;
+      margin: 10px auto;
+      height: 52px;
+      padding: 0 18px;
+  }
+
+  .button{
+    width: 25vw;
+    height: 8vh;
+    top: 3em;
+  }
+
+  .but {
+      top:1vh;
+      font-size: 4vw;
+  }
+
+  .but1 {
+
+      font-size: 3vw;
+  }
+
+  .forma_after{
+    position: relative;
+    width: 35vw;
+    height: 10vh;
+    top: 3vh;
+    left: 20vw;
+  }
+}

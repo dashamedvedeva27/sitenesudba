@@ -1,0 +1,160 @@
+:root {
+--red: #E1433B;
+--black: #191818;
+--white: #E8E7E1;
+}
+
+@font-face {
+  font-family: 'Oks';
+  font-display: swap;
+  src:
+       url("../fonts/Oksfree0013.otf") format('opentype');
+}
+
+
+html {
+background:var(--black) ;
+display: block;
+height: 1000px;
+overflow-x:hidden;
+}
+
+.text {
+  position:relative;
+  font-family:'Oks';
+  font-size: 10vw;
+  color: var(--white);
+  top: 17vh;
+  left:3vw;
+}
+
+
+.d1 {
+position:relative;
+top: 70vh;
+left:5vw;
+width: 24vw;
+height: 24vw;
+background:var(--white) ;
+border-radius: 50%;
+animation-name: rotation;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+text-transform: uppercase;
+line-height: 1;
+-webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+}
+.d1:hover{
+background:var(--red) ;
+animation-play-state: paused;
+}
+
+
+@keyframes rotation {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+.d2 {
+position:relative;
+top: 21vh;
+left:38vw;
+width: 24vw;
+height: 24vw;
+background:var(--white) ;
+border-radius: 50%;
+animation-name: rotation;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+text-transform: uppercase;
+line-height: 1;
+-webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+}
+
+.d2:hover{
+  background:var(--red) ;
+  animation-play-state: paused;
+}
+
+.d3 {
+position:relative;
+top: -29vh;
+left:71vw;
+width: 24vw;
+height: 24vw;
+background:var(--white) ;
+border-radius: 50%;
+animation-name: rotation;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+text-transform: uppercase;
+line-height: 1;
+-webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+}
+
+.d3:hover{
+  background:var(--red) ;
+  animation-play-state: paused;
+}
+
+.text1 {
+  position: relative;
+  font-family:'Oks';
+  font-size: 13vw;
+  color: var(--black);
+  top: 8vh;
+  left:10vw;
+  text-decoration: none;
+}
+
+.text2 {
+  position: relative;
+  font-family:'Oks';
+  font-size: 13vw;
+  color: var(--black);
+  top: 8vh;
+  left:8vw;
+  text-decoration: none;
+}
+
+.text3 {
+  position: relative;
+  font-family:'Oks';
+  font-size: 13vw;
+  color: var(--black);
+  top: 8vh;
+  left:9vw;
+}
+
+.w1 {
+    text-decoration: none;
+}
+
+.w2 {
+    text-decoration: none;
+}
+
+.w3 {
+    text-decoration: none;
+}
+
+.menu {
+position: fixed;
+width: 30px;
+height: 30px;
+background-color: var(--red);
+border-radius: 50%;
+top: 3vh;
+left:95vw;
+z-index: 5;
+}

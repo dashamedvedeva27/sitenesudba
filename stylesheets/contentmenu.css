@@ -1,0 +1,181 @@
+:root {
+--red: #E1433B;
+--black: #191818;
+--white: #E8E7E1;
+}
+
+@font-face {
+  font-family: 'Oks';
+  font-display: swap;
+  src:
+       url("../fonts/Oksfree0013.otf") format('opentype');
+}
+
+html {
+background:var(--black) ;
+display: block;
+height: 100vh;
+width: 100vw;
+overflow-y:hidden;
+}
+
+/* .nesudba {
+  position: fixed;
+  font-family:'Oks';
+  font-size: 9vw;
+  color: var(--white);
+  top: 40vh;
+  left:10vw;
+} */
+
+.overlay {
+  background-color:var(--white) ;
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+
+
+  clip-path: circle(100px at 50vh 50vw);
+  clip-path: circle(100px at var(--x, 100vh) var(--y, 100vw));
+  transition: "clip-path" 10ms;
+}
+
+/* .nesudba1 {
+  position: fixed;
+  font-family:'Oks';
+  font-size: 9vw;
+  color: var(--black);
+  top: 40vh;
+  left:10vw;
+} */
+
+.choice {
+  position:relative;
+  width: 50vw;
+  height: 100vh;
+  /* left: 50vw; */
+}
+
+.t1 {
+  position: relative;
+  font-family:'Oks';
+  font-size: 6vw;
+  color: var(--white);
+  top: 5vh;
+  left:25vw;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.t2 {
+  position: relative;
+  font-family:'Oks';
+  font-size: 6vw;
+  color: var(--white);
+  top: 10vh;
+  left:22vw;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.t3 {
+  position:relative;
+  font-family:'Oks';
+  font-size: 6vw;
+  color: var(--white);
+  top: 15vh;
+  left:30vw;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.t4 {
+  position: relative;
+  font-family:'Oks';
+  font-size:6vw;
+  color: var(--white);
+  top: 20vh;
+  left:25vw;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.t5 {
+  position: relative;
+  font-family:'Oks';
+  font-size: 6vw;
+  color: var(--white);
+  top: 25vh;
+  left:26vw;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.t6 {
+  position: relative;
+  font-family:'Oks';
+  font-size: 6vw;
+  color: var(--black);
+  top: 6vh;
+  left:26vw;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.t7 {
+  position: relative;
+  font-family:'Oks';
+  font-size: 6vw;
+  color: var(--black);
+  top: 11vh;
+  left:23vw;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.t8 {
+  position:relative;
+  font-family:'Oks';
+  font-size: 6vw;
+  color: var(--black);
+  top: 16vh;
+  left:31vw;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.t9 {
+  position: relative;
+  font-family:'Oks';
+  font-size:6vw;
+  color: var(--black);
+  top: 21vh;
+  left:26vw;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.t10 {
+  position: relative;
+  font-family:'Oks';
+  font-size: 6vw;
+  color: var(--black);
+  top: 26vh;
+  left:27vw;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.menu {
+position: fixed;
+width: 30px;
+height: 30px;
+background-color: var(--red);
+border-radius: 50%;
+top: 3vh;
+left:95vw;
+z-index: 5;
+}

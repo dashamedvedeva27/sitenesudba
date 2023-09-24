@@ -1,0 +1,223 @@
+:root {
+--red: #E1433B;
+--black: #191818;
+--white: #E8E7E1;
+}
+
+@font-face {
+  font-family: 'Oks';
+  font-display: swap;
+  src:
+       url("../fonts/Oksfree0013.otf") format('opentype');
+}
+
+
+html {
+background:var(--white) ;
+display: block;
+height: 4600px;
+}
+
+.papka {
+  position:fixed;
+  left: 100vw;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+
+.papka2 {
+  position:fixed;
+  left: 100vw;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+
+}
+
+.papka3 {
+  position:fixed;
+  left: 100vw;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+}
+
+.papka4 {
+  position:fixed;
+  left: 100vw;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+
+}
+
+.posters {
+  /* position:fixed; */
+  width: 70vw;
+  height: 100vh;
+  /* background:var(--black) ; */
+}
+
+.text {
+  position:relative;
+  font-family:'Oks';
+  font-size: 10vw;
+  color: var(--black);
+  top: 50vh;
+  left:5vw;
+}
+
+.poster1 {
+  position: relative;
+  width: 20vw;
+  top: 60vh;
+  left: 5vw;
+}
+
+.poster2 {
+  position:relative;
+  width: 25vw;
+  top: 100vh;
+  left: 15vw;
+
+}
+
+
+.poster3 {
+  position:relative;
+  width: 24vw;
+  top: 155vh;
+  left: -40vw;
+
+}
+
+
+.poster4 {
+  position:relative;
+  width: 20vw;
+  top: 120vh;
+  left: 40vw;
+
+}
+
+.poster5 {
+  position:relative;
+  width: 27vw;
+  top: 190vh;
+  left: -17vw;
+
+}
+
+.poster6 {
+  position:relative;
+  width: 25vw;
+  top: 160vh;
+  left: 35vw;
+
+}
+
+.poster7 {
+  position:relative;
+  width: 23vw;
+  top: 220vh;
+  left: -20vw;
+
+}
+
+
+.poster8 {
+  position:relative;
+  width: 25vw;
+  top: 210vh;
+  left: 35vw;
+
+}
+
+
+.poster9 {
+  position:relative;
+  width: 20vw;
+  top: 240vh;
+  left: -15vw;
+}
+
+.poster10 {
+  position:relative;
+  width: 25vw;
+  top: 240vh;
+  left: 35vw;
+
+}
+
+.poster11 {
+  position:relative;
+  width: 20vw;
+  top: 320vh;
+  left: 15vw;
+
+}
+
+.poster12 {
+  position:relative;
+  width: 25vw;
+  top: 210vh;
+  left: 3vw;
+
+}
+
+.fail {
+  /* position:relative; */
+  left: 300vw;
+  width: 42vw;
+}
+
+.button {
+  position: absolute;
+  width: 15vw;
+  left: 10vw;
+  top:55vh;
+}
+
+.t1 {
+  position:absolute;
+  font-family:'Oks';
+  font-size: 50px;
+  color: var(--white);
+  top: 75vh;
+  left:10vw;
+}
+
+.t2 {
+  position:absolute;
+  font-family:'Oks';
+  font-size: 50px;
+  color: var(--white);
+  top: 57vh;
+  left:11.5vw;
+  z-index: 1;
+}
+
+.t3 {
+  position:absolute;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-size: 1.2vw;
+  color: var(--white);
+  top: 23vh;
+  left:10vw;
+  z-index: 1;
+}
+
+
+
+.menu {
+position: fixed;
+width: 30px;
+height: 30px;
+background-color: var(--red);
+border-radius: 50%;
+top: 3vh;
+left:95vw;
+z-index: 5;
+}

@@ -1,0 +1,188 @@
+:root {
+--red: #E1433B;
+--black: #191818;
+--white: #E8E7E1;
+--gray:#6F6F6F;
+}
+
+@font-face {
+  font-family: 'Oks';
+  font-display: swap;
+  src:
+       url("../fonts/Oksfree0013.otf") format('opentype');
+}
+
+
+html {
+background:var(--white) ;
+display: block;
+height:5000px;
+}
+
+.text {
+  position:fixed;
+  font-family:'Oks';
+  font-size: 10vw;
+  color: var(--black);
+  top: 0vh;
+  left:5vw;
+}
+
+.shop {
+  position:fixed;
+  width: 300vw;
+  height: 4000px;
+}
+
+
+.cola2 {
+  position: relative;
+  width: 67vw;
+  top: 0vh;
+  left: 77vw;
+  z-index: 0;
+}
+
+
+.tshirt2 {
+  position: relative;
+  width: 35vw;
+  top: -16vh;
+  left: 70vw;
+}
+
+
+.fire2 {
+  position: relative;
+  width: 35vw;
+  top: -20vh;
+  left: 76vw;
+}
+
+.hat2 {
+  position: relative;
+  width: 56vw;
+  top: -5vh;
+  left: 77vw;
+}
+
+.cola {
+  position:absolute;
+  font-family:'Oks';
+  font-size: 3vw;
+  color: var(--black);
+  top: 82vh;
+  left:100vw;
+}
+
+.price1 {
+  position:absolute;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-size: 1.5vw;
+  color: var(--gray);
+  top: 90vh;
+  left:100vw;
+}
+
+.tshirt {
+  position:absolute;
+  font-family:'Oks';
+  font-size: 3vw;
+  color: var(--black);
+  top: 82vh;
+  left:142vw;
+}
+
+.price2 {
+  position:absolute;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-size: 1.5vw;
+  color: var(--gray);
+  top: 90vh;
+  left:142vw;
+}
+
+.fire {
+  position:absolute;
+  font-family:'Oks';
+  font-size: 3vw;
+  color: var(--black);
+  top: 82vh;
+  left:190vw;
+}
+
+.price3 {
+  position:absolute;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-size: 1.5vw;
+  color: var(--gray);
+  top: 90vh;
+  left:190vw;
+}
+
+.hat {
+  position:absolute;
+  font-family:'Oks';
+  font-size: 3vw;
+  color: var(--black);
+  top: 82vh;
+  left:230vw;
+}
+
+.price4 {
+  position:absolute;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-size: 1.5vw;
+  color: var(--gray);
+  top: 90vh;
+  left:230vw;
+}
+
+
+
+.plus1 {
+  position:absolute;
+  width: 7vw;
+  top: 70vh;
+  left:250vw;
+  z-index: 1;
+}
+
+.plus2 {
+  position:absolute;
+  width: 7vw;
+  top: 35vh;
+  left:205vw;
+  z-index: 1;
+}
+
+.plus3 {
+  position:absolute;
+  width: 7vw;
+  top: 72vh;
+  left:162vw;
+  z-index: 1;
+}
+
+.plus4 {
+  position:absolute;
+  width: 7vw;
+  top: 25vh;
+  left:112vw;
+  z-index: 1;
+}
+
+.menu {
+position: fixed;
+width: 30px;
+height: 30px;
+background-color: var(--red);
+border-radius: 50%;
+top: 3vh;
+left:95vw;
+z-index: 5;
+}

@@ -1,0 +1,168 @@
+:root {
+--red: #E1433B;
+--black: #191818;
+--white: #E8E7E1;
+}
+
+@font-face {
+  font-family: 'Oks';
+  font-display: swap;
+  src:
+       url("../fonts/Oksfree0013.otf") format('opentype');
+}
+
+
+html {
+background:var(--white);
+display: block;
+height: 100vh;
+overflow-x:hidden;
+}
+
+.text {
+  position:relative;
+  font-family:'Oks';
+  font-size: 10vw;
+  color: var(--black);
+  top: 1vh;
+  left:52vw;
+}
+
+.text1 {
+  position:relative;
+  font-family:'Open Sans', sans-serif;
+  font-size: 1.5vw;
+  color: var(--black);
+  top: 8vh;
+  left:52vw;
+}
+
+
+.forma{
+  width: 43vw;
+  height:85vh;
+  background-color:var(--white);
+  border: 2px solid #191818;
+  border-radius: 15px;
+  color: var(--white);
+  position: fixed;
+  top:8vh;
+  left: 5vw;
+}
+
+
+  .put {
+  display: inline-block;
+  top:10vh;
+  margin: 0;
+}
+
+.put{
+  display: block;
+    width: 35vw;
+    background-color:var(--white);
+    position: relative;
+    margin: 10px auto;
+    height: 52px;
+    padding: 0 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2vw;
+    line-height: 26px;
+    border-radius: 10px;
+    border: 2px solid #191818;
+}
+
+.fo {
+    display: block;
+    width: 10vw;
+    top:5vw;
+    left: 3vh;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    color: var(--black);
+    white-space: nowrap;
+}
+
+.but {
+    display: block;
+    width: 10vw;
+    left: 8vh;
+    top:3vh;
+    position: relative;
+    font-family: 'Oks';
+    font-size: 2.5vw;
+    color: var(--black);
+    white-space: nowrap;
+}
+
+.but1 {
+    display: block;
+    width: 10vw;
+    left: 6vh;
+    top:3vh;
+    position: relative;
+    font-family: 'Oks';
+    font-size: 2.5vw;
+    color: var(--white);
+    white-space: nowrap;
+}
+
+.name {
+    display: block;
+    width: 10vw;
+    top:1vw;
+    left: 3vh;
+    position: relative;
+    font-family: 'Oks';
+    font-size: 4vw;
+    color: var(--black);
+    white-space: nowrap;
+}
+
+.button{
+  font-size: 24px;
+  width: 9em;
+  height: 3em;
+  background-color: var(--black);
+  border: 2px solid rgba(0, 0, 0, 1);
+  position: relative;
+  top: 5em;
+  border-radius: 10px;
+  display:table-cell;
+}
+.button:hover{
+  color: var(--black);
+  background-color: var(--white);
+  border: 2px solid rgba(0, 0, 0, 1);
+  transition: .5s;
+}
+
+.complete{
+top: 3em;
+left: 24.8vw;
+
+}
+
+.forma_after{
+  display: none;
+  width: 30vw;
+  height:12vh;
+  background-color: var(--red);
+  color: white;
+  position: fixed;
+    border-radius: 10px;
+  left: 52vw;
+}
+
+
+.menu {
+position: fixed;
+width: 30px;
+height: 30px;
+background-color: var(--red);
+border-radius: 50%;
+top: 3vh;
+left:95vw;
+z-index: 5;
+}

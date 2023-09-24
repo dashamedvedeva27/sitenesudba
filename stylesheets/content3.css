@@ -1,0 +1,180 @@
+:root {
+--red: #E1433B;
+--black: #191818;
+--white: #E8E7E1;
+--gray:#6F6F6F;
+}
+
+@font-face {
+  font-family: 'Oks';
+  font-display: swap;
+  src:
+       url("../fonts/Oksfree0013.otf") format('opentype');
+}
+
+
+html {
+background:var(--white);
+display: block;
+height:100vh;
+}
+
+.book1 {
+  position:fixed;
+  width: 300vw;
+  height:100vh;
+  z-index: 1;
+}
+
+
+
+.slide1 {
+  position:relative;
+  height:100vh;
+  left:-37vw;
+  z-index: 5;
+  /* top:-1.4vh; */
+}
+
+.b1 {
+  position:fixed;
+  font-family:'Oks';
+  font-size: 4vw;
+  color: var(--white);
+  top:8vh;
+  left:-34vw;
+  z-index: 6;
+  text-decoration: none;
+}
+
+.b2 {
+  position:fixed;
+  font-family:'Oks';
+  font-size: 4vw;
+  color: var(--white);
+  top:23vh;
+  left:-35vw;
+  z-index: 6;
+    text-decoration: none;
+}
+
+.b3 {
+  position:fixed;
+  font-family:'Oks';
+  font-size: 4vw;
+  color: var(--white);
+  top:35vh;
+  left:-35vw;
+  z-index: 6;
+    text-decoration: none;
+}
+
+.b4 {
+  position:fixed;
+  font-family:'Oks';
+  font-size: 4vw;
+  color: var(--white);
+  top:47vh;
+  left:-35vw;
+  z-index: 6;
+    text-decoration: none;
+}
+
+.b5 {
+  position:fixed;
+  font-family:'Oks';
+  font-size: 4vw;
+  color: var(--white);
+  top:59vh;
+  left:-35vw;
+  z-index: 6;
+    text-decoration: none;
+}
+
+.text {
+  position:fixed;
+  font-family:'Oks';
+  font-size: 10vw;
+  color: var(--white);
+  top: 50vh;
+  left:60vw;
+  z-index: 6;
+}
+
+.text1 {
+  position:fixed;
+  font-family:'Oks';
+  font-size: 6vw;
+  color: var(--white);
+  top: 55vh;
+  left:-28vw;
+  z-index: 6;
+}
+
+.text2 {
+  position:fixed;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-size: 1.2vw;
+  color: var(--white);
+  top: 70vh;
+  left:-28vw;
+  z-index: 6;
+}
+
+.slide2 {
+  position:fixed;
+  height:100vh;
+  left:-37vw;
+  z-index: 4;
+}
+
+.slide3 {
+  position:fixed;
+  height:100vh;
+  left:-37vw;
+  z-index: 3;
+}
+
+.slide4 {
+  position:fixed;
+  height:100vh;
+  left:-37vw;
+  z-index: 2;
+}
+
+.slide5 {
+  position:fixed;
+  height:100vh;
+  left:-37vw;
+  z-index: 1;
+}
+
+.str1 {
+  position:fixed;
+  width: 500vw;
+  height:80vh;
+  left: 380vw;
+  top: 10vh;
+ z-index: 0;
+}
+
+.strs1 {
+  height:80vh;
+  top:60vh;
+  z-index: 0;
+}
+
+
+
+
+.menu {
+position: fixed;
+width: 30px;
+height: 30px;
+background-color: var(--red);
+border-radius: 50%;
+top: 3vh;
+left:95vw;
+z-index: 101;
+}
